@@ -4,10 +4,8 @@ all: fop-hyph-1.2.tar.gz fop-hyph_1.2.orig.tar.gz
 
 clean:
 	rm -f fop-hyph-1.2.tar.gz fop-hyph_1.2.orig.tar.gz
-	rm -f fop-hyph_1.2-*.debian.tar.gz
-	rm -f fop-hyph_1.2-*.dsc
-	rm -f fop-hyph_1.2-*_all.deb
-	rm -f fop-hyph_1.2-*_i386.changes
+	rm -f fop-hyph_1.2-*.debian.tar.gz fop-hyph_1.2-*.dsc fop-hyph_1.2-*_all.deb fop-hyph_1.2-*_i386.changes
+	make -C fop-hyph-1.2 clean
 
 
 fop-hyph-1.2.tar.gz: fop-hyph-1.2/Makefile
