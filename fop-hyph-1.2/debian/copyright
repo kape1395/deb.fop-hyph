@@ -1,0 +1,8 @@
+Format: http://dep.debian.net/deps/dep5
+Upstream-Name: offo
+Source: http://offo.sourceforge.net
+
+Files: Makefile debian/*
+Copyright: 2011 Karolis Petrauskas <k.petrauskas@gmail.com>
+License: Apache-2.0
+

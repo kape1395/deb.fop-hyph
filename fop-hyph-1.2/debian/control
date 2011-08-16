@@ -1,0 +1,14 @@
+Source: fop-hyph
+Section: libs
+Priority: extra
+Maintainer: Karolis Petrauskas <k.petrauskas@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.1
+Homepage: http://offo.sourceforge.net/
+
+Package: fop-hyph
+Architecture: all
+Depends: ${misc:Depends}
+Description: Hyphenation patterns for Apache FOP.
+ Java library containing "Objects For Formatting Objects".
+ It is used by Apache FOP for a hyphenation.

@@ -1,0 +1,8 @@
+fop-hyph for Debian
+-------------------
+
+This package is created because no public alternatives exist due to the 
+fop-hyph licencing. With this package one can create a deb version of
+this software for own purposes.
+
+ -- Karolis Petrauskas <k.petrauskas@gmail.com>  Tue, 16 Aug 2011 22:43:48 +0300
