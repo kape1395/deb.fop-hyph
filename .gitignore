@@ -8,4 +8,7 @@ fop-hyph-1.2/debian/fop-hyph.debhelper.log
 fop-hyph-1.2/debian/fop-hyph.substvars
 fop-hyph-1.2/debian/fop-hyph/
 fop-hyph-1.2/debian/patches/
-
+fop-hyph_1.2-*.debian.tar.gz
+fop-hyph_1.2-*.dsc
+fop-hyph_1.2-*_all.deb
+fop-hyph_1.2-*_i386.changes
