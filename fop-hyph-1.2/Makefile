@@ -10,9 +10,9 @@ install: fop-hyph.jar
 	echo "DESTDIR=$(DESTDIR)"
 	env
 	mkdir -p $(JAR_DIR)
-	install fop-hyph.jar $(JAR_DIR)/fop-hyph-1.2.jar
+	install --mode 644 fop-hyph.jar $(JAR_DIR)/fop-hyph-1.2.jar
 	ln -s /usr/share/java/fop-hyph-1.2.jar $(JAR_DIR)/fop-hyph.jar
-	
+
 fop-hyph.jar: offo-hyphenation-fop-stable.zip
 	unzip -p offo-hyphenation-fop-stable.zip offo-hyphenation-fop-stable/fop-hyph.jar > fop-hyph.jar
 

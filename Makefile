@@ -1,6 +1,6 @@
 
 all: fop-hyph-1.2.tar.gz fop-hyph_1.2.orig.tar.gz
-	@echo "#\n# (cd fop-hyph-1.2 && dpkg-buildpackage -rfakeroot)\n#"
+	(cd fop-hyph-1.2 && dpkg-buildpackage -rfakeroot)
 
 clean:
 	rm -f fop-hyph-1.2.tar.gz fop-hyph_1.2.orig.tar.gz
